@@ -145,25 +145,25 @@ Each log entry contains:
 
 ### Main Inventory View
 
-![Main Inventory View](screenshots/Inventory.png)
+![Main Inventory View](Screenshots/Inventory.png)
 
 ---
 
 ### Low Stock Report
 
-![Low Stock Report](screenshots/low_stock.png)
+![Low Stock Report](Screenshots/low_stock.png)
 
 ---
 
 ### Inventory Dashboard
 
-![Inventory Dashboard](screenshots/dashboard.png)
+![Inventory Dashboard](Screenshots/dashboard.png)
 
 ---
 
 ### Transaction History
 
-![Transaction History](screenshots/transactions.png)
+![Transaction History](Screenshots/transactions.png)
 
 
 ## 📜 Evaluation Checklist (for Internships)
