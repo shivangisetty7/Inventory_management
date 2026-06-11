@@ -14,9 +14,20 @@ A modular, terminal-based Inventory Management System* built with Python and SQL
 6. **Transaction Audit Trail**: View historical movements of items with timestamps, transaction types, quantities, and reference notes.
 7. **Clean CLI Experience**: Leverages ANSI escape codes for professional color-coded indicators, layouts, and custom-formatted ASCII tables (built without third-party dependencies).
 8. **Logging System**: A dual-handler logging mechanism logging structured events to `inventory.log`.
-9. **Unit Testing**: 100% test coverage for database interactions, validation rules, stock changes, and reporting functions.
+9. **Unit Testing**:  Comprehensive unit testing for core functionality for database interactions, validation rules, stock changes, and reporting functions.
 
 ---
+
+
+## Technologies Used
+
+- Python 3.8+
+- SQLite3
+- unit test
+- logging
+- ANSI Terminal Formatting
+
+
 
 ## 📂 Project Architecture
 
@@ -130,6 +141,31 @@ Each log entry contains:
 
 ---
 
+## 📸 Screenshots
+
+### Main Inventory View
+
+![Main Inventory View](screenshots/Inventory.png)
+
+---
+
+### Low Stock Report
+
+![Low Stock Report](screenshots/low_stock.png)
+
+---
+
+### Inventory Dashboard
+
+![Inventory Dashboard](screenshots/dashboard.png)
+
+---
+
+### Transaction History
+
+![Transaction History](screenshots/transactions.png)
+
+
 ## 📜 Evaluation Checklist (for Internships)
 
 - [x] **Modular Structure**: Logic cleanly split into CLI interface, database connectivity, reports, CRUD core, and validation helpers.
@@ -138,3 +174,4 @@ Each log entry contains:
 - [x] **Logging**: Full audit trail of database operations and errors written to `inventory.log`.
 - [x] **Clean CLI Layout**: Professional ANSI color highlights, custom text wrappers, table structures, and warning alerts.
 - [x] **Unit Testing**: Tests verify business logic using a temporary database, isolated and repeatable.
+
