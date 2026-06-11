@@ -1,0 +1,3 @@
+# This project requires Python 3.8+ and runs entirely using the Python Standard Library.
+# No external pip dependencies are required.
+# To run tests: python -m unittest discover -s tests
